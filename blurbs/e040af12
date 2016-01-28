@@ -1,0 +1,11 @@
+Accelerating Drug Discovery with Machine Learning on Big Medical Data
+=============
+[Link to article](http://www.datanami.com/2015/09/24/accelerating-drug-discovery-with-machine-learning-on-big-medical-data/)
+
+twoXAR is a company that was founded by two men called Andrew Radin. The radins looked to set out to solve the costly and time consuming process of discovering new drugs. They claim to have developed an algorithm that would use machine learning to speed up the process. They state that:
+>"The traditional method of drug discovery is you examine a disease, you devise that there's a protein of interest to you, and if you can regulate an activity with a drug, then perhaps it will help out," twoXAR CEO Andrew A. Radin tells Datanami. "That's a multi-year process to do all that work."
+
+Their algorithm speeds this process up by taking diverse data sets and draw relationships between them. You need a lot of data for a machine learning algorithm to work, so they source this from data already in the public sphere from the likes of the FDA and the NIH. They then plug the required data into the system which runs on the AWS cloudbased service and let it run. 
+>"What it does is it has a method for extracting the most relevant data - there's some work to extract signal from noisy data from these very diverse data sets," he says. "We then load it into a relationship model, where relationships between these data sets are calculated in the memory of the computer. And then from there we use that to create feature vectors that ultimately get loaded into a machine learning algorithm."
+
+However there are issues they face with this kind of system, they still require the data to be crosschecked in case of false positives. It is likely they would also face some opposition from drug companies who are skeptical whether how this approach would work vs traditonal lab experimentation. However they have had some early success trying to tackle the problem of finding treatments to Parkinsons Disease.

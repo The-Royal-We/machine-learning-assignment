@@ -1,0 +1,18 @@
+Machine Learning in the News
+
+Fujitsu Achieves 96.7% Recognition Rate for Handwritten Chinese Characters Using AI That Mimics the Human Brain
+
+Fujitsu has announced the development of the world's first handwriting recognition technology by utilizing AI technology modelled on human brain processes to surpass a human equivalent recognition rate of 96.7%, which was established at the International Conference on Document Analysis and Recognition (ICDAR), a top-level conference in the document image processing field.
+
+Fujitsu had previously achieved top-level accuracy in this field, as demonstrated by taking first place, with a recognition rate of 94.8%, at a handwritten Chinese character recognition contest held at ICDAR. However, in order to further increase recognition accuracy, a new mechanism for studying the diversity of character deformations was required.
+
+Now, with a focus on a hierarchical model of expanded connections between neurons, a model based on the human brain which grasps the features of the characters, Fujitsu has developed a technology to automatically create numerous patterns of character deformation from the character's base pattern, thereby "training" this hierarchical neural model. Using this method, Fujitsu has achieved an accuracy rate of 96.7%, surpassing the human equivalent recognition rate of 96.1% for handwritten Chinese characters.
+
+With character recognition technology, the goal is to learn and store the features of the many character patterns thought to be used by humans when recognizing characters, using a model of connected hierarchies based on human neurons. When attempting to recognize a character, the features of the input character are extracted in the same way as in the learning process, and the character is identified and recognition results output on the basis of which features (neurons) reacted as determined by the learning process.
+
+In order to further increase the accuracy of recognition, there was a need for a new effort to study the diversity of character deformations. Carried out using a database of handwritten Chinese (3,755 types, 715 test samples/category).
+
+
+Featured on Reddit (https://www.reddit.com/r/MachineLearning/)
+Links to (http://en.acnnewswire.com/press-release/english/25211/)
+Posted on Thursday, 17 September 2015, 12:32 HKT/SGT.

@@ -1,0 +1,7 @@
+Research conducted in Brown University and the Technical University of Berlin have used machine learning algorithms to identify sketches. It is thought that this research could lead to sketch search engines.
+
+The researchers used the Mechanical Turk service from Amazon to hire people to make sketches. The researchers had 250 categories of photographs, with a number of pictures of the same object in each category. Those hired made sketches of the objects in each category. The sketches were then processed by machine learning algorithms.
+
+In total 20,000 sketches were used to teach the machine. They then conducted tests into the accuracy of the resulting program. The program had a 56% accuracy when it came to correctly identifying a person's sketch, which is compared to a 76% accuracy when humans are given the same task.  
+
+Information taken from the website gizmag. 

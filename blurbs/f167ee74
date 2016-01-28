@@ -1,0 +1,7 @@
+Researchers at Western University recently developed an algorithm to judge the best treatment for cancer patients. The algorithm works by creating a link between the genes of a patient and their reaction to a certain drug. This allows a more personalised treatment, as drugs can be chosen to suit the patient.
+
+As part of a trial run, the system was fed a set of 40 genes commonly found in breast cancer tissue, as well as sample data derived from the cell lines and tumor tissues of 350 cancer patients. These patients had all taken at least one of the two treatments under consideration, i.e. the chemotherapy drugs "paclitaxel" and "gemcitabine".
+
+The researchers got their machine learning tool to process this data set, after which a drug choice could be made for a new patient by feeding a sample of their genes into the system. The tool managed to predict drug outcomes with a 62-84% accuracy rate.
+
+In future, they plan to improve the system by feeding it more data and by refining their algorithms.

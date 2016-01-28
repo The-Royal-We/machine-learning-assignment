@@ -1,0 +1,19 @@
+Using Emoticons to reduce Dependency in Machine Learning Techniques for Sentiment Classification.
+Jonathon Read 
+Department of Informatics 
+University of Sussex 
+United Kingdom.
+
+Sentiment Classification is a machine learning sub-topic that tries to determine the feelings and sentiments of an author, of a particular piece of text. According to the article I read, there are some techniques that can do this with a high percentage of accuracy, but only when the learning data and the test data is similar. Shortcomings of the current techniques mean that a machine can be taught to review pieces of texts. But it will be bound by the domain the learning data, the topic of the text and the time when the text was written.
+
+Jonathan Read of the Department of Informatics in Sussex is trying to demonstrate that training data labelled with emoticons, has the potential of being independent of domain, topic and time.
+
+The experimenters used their own implementation of something called "Naive Bayes classifier and Joachim's (1999) SVM light implementation of a Support Vector Machine classifier", to train their machines. They then tested the machines' accuracy against the domain, topic and time dependencies to validate their theory that current sentiment classification techniques were bound to these dependencies.  They proved that if you trained a machine from a dataset where all the information came from one source or website, it would be less accurate when the same machine was used on another dataset (The domain).  They trained their machine on movie reviews from one website and then tested the machine on another website. The results were different and this showed that the domain of the teaching data and testing data is important.
+
+A machine that was taught from movie reviews would not be able to gather the correct sentiment from an automobile review (E.G. unpredictable movie is not the same as unpredictable steering).
+
+And finally, they compiled to datasets of movies from different time periods and taught machines using these datasets (One per Machine). The different machines were inconsistent when reviewing the same movies. Again proving that time was a dependency.
+
+The experimenters compiled a database containing emoticons/emojis  and taught their machines using these datasets. The results were slightly below contemporary techniques for sentiment classification, but they were happy with their results and believed that compiling more articles containing emoticons will increase the accuracy of the machines even further.
+
+They however, discovered another possible dependency, language-style. They believed that emoticons are used primarily in very informal texts. And that the machines would not learn how to gather semantic classification from more formal texts. They see this as a future problem they are planning on finding a solution to.

@@ -1,0 +1,12 @@
+Yes, androids dream of electric sheep
+
+Google sets up feedback loop in its image recognition neural network - which looks for patterns in pictures - creating hallucinatory images of animals, buildings and landscapes which veer from beautiful to terrifying.
+
+The algorithm was given images ranging from classic paintings to random noise and asked to find objects and animals it was "taught" to recognize. The article doesn't mention the quantity or source of image data for the study. When the algorithm found something it recognized, it was tasked with emphasizing that feature in the image and then run the process again. This resulted in the algorithm finding things like faces and animals in images that didn't actually feature these things. Leading to the human like phenomenon pareidolia occurring within the system.
+
+Pareidolia  is a phenomenon wherein the human mind tends to perceive faces in images where none are to be found. It is the visual or auditory form of apophenia, which is the perception of patterns within random data.
+
+This particular study that Google carried out was motivated by the problem of machine learning algorithms taking on a life of their own once the system is "taught" a pattern. It is not always obvious exactly what the system is using the recognize a particular object. So Google used this feedback loop to see exactly what the algorithm was perceiving for each type of object it knew about. Thus giving Google important information about which kind of training examples to feed into the system and which not to. For example, they uncovered that when the system learned about dumbbells, it always contained a arm holding the dumbbell. So the system would assume the arm was part of the dumbbell. Seeing this internal "thought" process of the algorithm allowed Google to change up the training examples so that they included dumbbells that were laying on the ground with no arm in sight.
+
+The article finishes by mentioning the overall aim of this particular image recognition system was to improve features in the Google Photo's application.
+  

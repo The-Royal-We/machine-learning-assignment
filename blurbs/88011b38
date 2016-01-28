@@ -1,0 +1,9 @@
+Computer Scientists are busy people. We spend our days (but mostly nights) writing, running, debugging, and running: lines upon lines of code. There's little wonder then; that in a poll of 11,000 students in the UK the field of study which had the highest percentage of virgins was Computer Science.
+
+However, this may be about to change as one developer known as "crockpotveggies" has devised a method of automating the Tinder experience. Now, he hasn't spent his days and nights creating sex robots; but less creepily he has developed a bot which "learns who you're attracted to". Not only this but the bot can also begin conversations with those who it matches you with using the popular dating app; Tinder.
+
+The bot's called Tinderbox and once it has access to at least 60 of your Tinder likes/dislikes it believes it knows what type of partner you're looking for. Using the facial recognition algorithm "Eigenfaces"; Tinderbox creates a model image for all your no votes and one for all your yes votes. The bot then compares all possible Tinder matches to these two images to decide whether your potential love interest gets a left or right swipe.
+
+Once a match has been made the bot goes ahead and breaks the ice with its own set of conversation-starters. Using StandfordNLP (Natural Language Processing), the bot is directed by a message tree in its response to the text-based conversation. The same algorithms derive sentiment from your new match's replies to categorize them as either positive or negative. After three positive replies you will receive a notification letting you know that the conversation is ready to be entered by you.
+
+So, one programmer has managed to make dating as easy as showing a bot a picture of your ideal partner and then with minimal effort you're sitting down for dinner with them the next day. Oddly enough those long nights coding can now be correlated with romantic success.

@@ -1,0 +1,9 @@
+MarI/O uses Machine Learning and Neural Networks to play Mario
+
+A machine learning algorithm has learned to play Super Mario World to the level of a skilled player having started with no knowledge about the game at all. Using a neural network and NEAT (Neuro-Evolution of Augmenting Topologies) MarI/O evolved over the course of 24 hours from not knowing that it needed to go to the right to being able to complete the level Doughnut Plains 1 in a time of 46 seconds.
+
+NEAT is a method for evolving neural networks with a genetic algorithm based off the idea that it is most effective to start small and grow the networks complexity over several generations.
+
+MarI/O actually knows little about Mario, how to complete a level or how to defeat enemies; all it really knows is that given any situation it should take an action x based on the ruleset it has evolved from a vast amount of trial and error. The actions it will take are evolved in a survival of the fittest fashion; actions which produced poor results are abandoned while actions which produced promising results will be carried over to the next generation. MarI/O's starting knowledge was so little and its range of actions tried were so large that it also managed to find and use two exploits that have never previously been reported in the 25 years since the games release.
+
+MarI/O has also been adapted to play Super Mario Kart and has been able to beat human opponents having learned to play using the same methods used for Super Mario World.

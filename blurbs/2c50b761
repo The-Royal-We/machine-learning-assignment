@@ -1,0 +1,8 @@
+Pepper: Robot Gains Emotional Intelligence
+
+A new robot called Pepper, created by Softbank and Aldabaran, has been created with the technology necessary to interact with humans in social settings. Pepper is being called the first "emotionally intelligent" robot. Unlike other robots used to solve manual work, Pepper will be able to calm down situations through the use of novel emotion recognition techniques. This will be crucial if machines are ever able to make the leap from the factory worker to domestic caregiver. 
+
+Softbank hasn't revealed the exact proprietary algorithms used to achieve emotion recognition, but it is most likely some form of deep neural network. Most attempts at emotion recognition use machine learning, in which training data, most often labelled, is fed into an algorithm that uses statistical techniques to "recognize" characteristics that set the examples apart. It's likely that Pepper practices a variation on this, using algorithms trained on thousands of labelled photographs or videos and learning what combination of pixels represent a smiling face versus an angry one. Pepper is also connected to the cloud, feeding data from its sensors to server clusters. This should allow their emotion recognition algorithms to improve over time. Also, every time someone uses the system and corrects a misinterpreted word, they provide a new training example for the AI to improve its performance. 
+
+Although it is unlikely Pepper will be of any financial benefit, but it is a start towards perfecting emotion recognition which may have a lot more importance in the near future. 
+

@@ -1,0 +1,13 @@
+A recent example of Machine Learning in the news is Google Translate. Google translate allows users to translate to and from over 90 different international languages.
+
+Google recently acquired a technology called "Word Lens" which allows for decoding and translation of images or videos in real time. This is achieved using the device's camera function.
+
+This technology makes use of Machine Learning through Convolutional Neural Network. A Convolutional Neural Network  uses a model consisting of many individual neurons tiled in a way that they respond to overlapping regions in the visual field.
+
+It uses this method to distinguish the letters of words from the background (which should typically be a single colour).
+
+A Convolutional Neural Network is a variation of a multilayer perceptron and is designed to use minimal preprocessing. They are used commonly in video and image recognition.
+
+The data used for training was publically available information on the internet, such as the European Union documents which had been translated into several different languages by experts from various countries.
+
+In order to make the application smaller in size, it has a limited range of rotation allowed for scanned letters. It performs best on uniform, upright letters on a single-colour background.

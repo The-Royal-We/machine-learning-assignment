@@ -1,0 +1,9 @@
+Google Brain is a deep learning project carried out by Andrew Ng of Stanford University and Jeff Dean of Google. The initial goal was to train computers to recognise objects in images, no matter the lighting, orientation, colour, etc.
+
+One problem was finding a labelled data source for training the model. This reliance on labelled data was removed by building artificial neural networks that could teach themselves to learn from unlabelled data. 
+Another problem was the computational cost of neural networks. Most previous networks had only used between one and ten million connections. 
+By assembling cluster of 16,000 computers in Google data centres, they trained models with over one billion connections. These models were dedicated to mimicking aspects of human brain activity and successfully trained themselves to recognize a cat based on 10 million digital images taken from YouTube videos.
+This image recognition feature has since been implemented on Google+ photos where it can recognise cats, dogs, etc. from your unlabelled images.
+
+But this isn't just about images. The breakthrough is said to be "remaking the Google Empire" as it redefines all of their services - including maps, autonomous cars, advertising, speech recognition and natural language modelling.
+Google's strong interest in the area of deep learning is clear from their recent acquisition of DNNResearch Inc. and also their reported acquisition of DeepMind Technologies for over 400 million pounds.

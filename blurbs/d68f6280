@@ -1,0 +1,9 @@
+The article I chose deals with a machine learning algorithm called 'NaSent' which is an acronym of 'Neural Analysis of Sentiment'.
+
+The aim of this project was to have an algorithm that can extract the sentiment of a word with regard to the context of the sentence in which it was found in. Another requirement of this aim was to have this algorithm achieve the above without any human help. 
+
+NaSent achieves this sentiment extraction by identifying the polarity of each word as it interacts with the other words that surround it. In this case, polarity can be defined as a vector of the words sentiment. The polarity can range from very negative, negative, neutral, positive or very positive.
+
+The system was trained on 12,000 sentences from the movie review website, "Rotten Tomatoes". These sentences were then split into 214,000 phrases which were then labelled with the phrases appropriate polarity as defined above. The labelled sentences were then fed into NaSent as a training dataset.
+
+The problem of extracting sentiment from sentences created by users is considered useful to the advertising business as it provides another vector for improving advertising targeting.

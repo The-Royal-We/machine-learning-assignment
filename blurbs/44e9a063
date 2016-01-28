@@ -1,0 +1,16 @@
+Infinite Analytics - Personalized online shopping through Machine Learning
+
+The issue I have looked at as part of this assignment was related to the area of targeted advertising. More specifically in relation to the area of personalizing online shopping experiences and better prediction of a customer's buying habits.
+
+The company that developed this Machine Learning algorithm are called "Infinite Analytics". It is ran by some MIT graduates. It works by reading different data sources they refer to as "data silos". These data silos basically consist of different applications their targeted customer use such as their social media pages, personal pages and other information about their past purchases and more. It takes all of this information in and then basically acts as a virtual salesman offering the customer better product recommendations than ever possible in the past.
+
+The algorithm takes your information, maps it against other customers with similar information and who made similar purchases. It also looks at the product you are specifically looking at, and creates a profile based on the product itself. Everything is then ran through a powerful recommendation engine. Based on all of these points, some highly probably results are returned. The algorithm has become so smart that it can now detect changes in circumstance too. E.G. someone's financial expenditure increasing, it will start to recommend more expensive products.
+
+This algorithm began as a project for two students in MIT to recognize the best way to connect with someone in your circles. After the completion of the course, the two students recognized their algorithm's potential and expanded it out as the start-up discussed in this piece. They developed it over a number of years and the algorithm had a lot of time to learn and build up a lot of data.
+
+What I found particularly interesting about this problem is that the founders used a lot of readily available data in terms of social media and personal pages. They also encompassed specific websites data when they obtained them as clients (e.g. eBay) at a later stage. This gave them a constant flow of data to use to solve there problems. The hard part for them was taking the "silo's" of information and making it usable. Once this bridge was crossed, they made one of the most powerful recommendation systems known today, that has been picked up by sites like eBay as I have mentioned.
+
+This advancement was all because of Machine Learning.
+
+Source: http://news.mit.edu/2015/data-analytics-online-shopping-0915
+

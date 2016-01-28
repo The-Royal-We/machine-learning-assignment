@@ -1,0 +1,15 @@
+Learning language through games
+
+MIT have recently designed a computer system that learns how to play text-based computer games with no prior assumptions about how the language works. At this stage the system can't complete the games as whole. However its ability to complete sections of it suggests that it figures out the meanings of words during the training.
+
+The researchers were concerned with designing a system which could make inferences about syntax, which has long been a problem in the field of natural-language processing. For example, in a text-based fantasy game there's a major difference between being told "you're hurt" and "you're not hurt". A system which relied on collections of keywords would miss the difference and would struggle with negation in general.
+
+To evaluate their system they compared its performance against two others which use variants of a technique standard in the field of natural-language processing. The basic technique is called "the bag of words" in which a machine learning algorithm bases its outputs on co-occurrence of words. The variation, called the "bag of bigrams" looks for the co-occurrence of two-word groups. On a game developed by Evennia the MIT system outperformed the other two, and the difference was even greater in their self-developed game which included a lot of syntactical ambiguities.
+
+The MIT researchers used a style of machine learning called deep learning. This a concept of neural networks, which was common in early artificial-intelligence research. Usually machine-learning systems will begin with some assumptions about the data it's examining. A natural-language processing system could, for example assume that some words it'll encounter are negations. 
+
+Neural networks make no assumptions. They instead "derive a sense of direction from their organisation into layers". Data is fed into an array of nodes that process it, this is found at the bottom layer of the network. These nodes each modify the data in a different way before passing it to the next layer, which again modifies the data before passing it on, and so on. The outputs at the end are measured against some criteria. The process repeats to see whether different specifications and modifications improve performance. 
+
+In this experiment the MIT researchers used 2 criteria, one was competition of the task for example, crossing a bridge without falling off. The other was maximisation of scores in several player attributes such as health points. On both of these measures the deep-learning system outperformed bag of words and bag of bigrams. 
+
+However to complete the game requires players to remember verbal descriptions of an engraving encountered in one room and match it up later on in the game with the same pattern, at this stage the MIT group "don't know how to do that at all".

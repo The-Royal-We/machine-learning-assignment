@@ -1,0 +1,13 @@
+Self-teaching Chess Machine.
+
+Almost 20 years ago, IBM's Deep Blue supercomputer used brute force to beat the reigning world chess champion. It searched through all possible future moves to find the best next one. Deep Blue searched 200 million positions per second, while it's human opposition was searching no more than five a second, yet they played at the same level.
+
+The goal was to create an artificial intelligence machine, named Giraffe, to teach itself to play chess by evaluating positions much more like humans.
+
+The technology used is a neural network. There are four layers in this network that examine each position on the board in three different ways. The first looks at the global state of the game, such as the number and type of pieces on each side and which side is to move. The second looks at the location of each piece on each side, while the final step is to map the squares that each piece attacks and defends.
+
+The network is trained with a carefully generated dataset taken from real chess games. The creator of Giraffe generated the dataset by randomly choosing five million positions from a dataset of computer chess games. He then added a random legal move to each position before using it for training to create more variety. In total he generated 175 million positions.
+
+The machine played against itself to learn which positions are strong and which are weak. Having trained the machine for just 72 hours, it was tested on a standard database and matched the best chess engines in the world. It also placed within the top 2.2 percent of tournament chess players and attains International Master status.
+
+The interesting thing about this machine compared to conventional chess engines, is that it derives its playing strength from being able to evaluate tricky positions correctly and understanding complex positional concepts that are intuitive-to humans but have been elusive to chess engines for a long time.

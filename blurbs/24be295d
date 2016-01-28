@@ -1,0 +1,14 @@
+DUMA - Accellerated Drug Discovery
+
+DUMA is a machine learning system which uses large quantities of medical data to predict new descriptions for drugs to treat diseases. Currently the process takes months, if not years, to develop a new treatment. With this system it can takes mere minutes.
+
+It takes in data from multiple, highly diverse sources and pulls out the most relevant information, whether about an existing drug or disease, and after sieving through the noise, or irrelevant information, should output an appropriate treatment.
+
+As an example, if the system examines the disease signal for Parkinsons, the system may suggest that birth control will help fight the symptoms. For this reason it is critical that the system examine data from multiple diverse sources. This "error" is not taken as a false reading but as something that contains meaningful information to make a prediction as the results are repeated in multiple data sets.
+
+As this system is to be used with large drug companies, it will be some time before it is implemented as the results of the system will need to be verified in labs before the system can be credited in such a regulated environment. Currently DUMA is being focussed on cardiovascular, metabolic and neurological diseases, although it can be used for any disease.
+
+To test the system, the creators fed in information on Parkinsons Disease, ran the system and a few moments later were presented with a list of possible treatments. After using Google to research their results they found the contact details for a lab currently working on one of the drugs listed in their results. They contacted the lab and were told that they have produced a system that backs up what the lab techs had been working on for years. The techs asked them to run the system on another drug they were working on and and few moments later came back to them with results that matched the lab techs undrstanding of what is happening with this drug and why it is effective in the treatment of Parkinsons.
+
+Source: 
+http://www.datanami.com/2015/09/24/accelerating-drug-discovery-with-machine-learning-on-big-medical-data/

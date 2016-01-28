@@ -1,0 +1,13 @@
+Fujitsu R&D recently announced the development of the world's first handwriting recognition technology to surpass a human recognition rate of 96.7%. The technology utilizes neural networks which can mimic the brain's ability to recognize and grasp features of the characters. 
+
+The goal of the technology is to learn and store the features of many character patterns thought to be used by humans when recognizing characters. The model attempts to do this using a hierarchical model based on human neurons. Analyzing the input character takes place in two stages. When analyzing an input character it firstly perceives the simple features of the character. Then it perceives the complex features of the character. The results of the learning are accumulated including which features the model reacted to.
+
+When attempting to recognize a character, the features of the input character are extracted in the same way as in the learning process, and the character is identified and recognition results output on the basis of which features reacted as determined by the learning process.
+
+In 2013 the technology came first place in a handwritten Chinese character recognition contest held at the International Conference on Document Analysis and Recognition with a recognition rate of 94.8%. This however was still below the human equivalent recognition rate of 96.1%. In order to improve on this already impressive result they were required to develop a new mechanism for studying the diversity in character deformations.
+
+Given the difficulty in collecting real world patterns of deformation for all 3,800 Chinese characters to be recognized Fujitsu developed a technology to randomly deform existing character samples to automatically create a vast pool of sample data to train the model on. Additionally they added a Z-axis representing the grey value of the image to the existing X and Y axes of the image. This allowed them to train the model to recognize localized differences in brightness of parts of the background or the character. 
+
+Fujitsu also expanded the scale of the model by increasing the number of connections between neurons used in the model from 2.8 million to 150 million to study more complex features in the deformations.
+
+These improvements allowed Fujitsu to increase the accuracy of their technology from 94.8% to 96.7% surpassing the human equivalent rate of 96.1%
